@@ -1,49 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Arennull netrunner banner">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
   <defs>
-    <linearGradient id="void" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050008"/>
-      <stop offset="45%" stop-color="#12061f"/>
-      <stop offset="100%" stop-color="#02040a"/>
+    <linearGradient id="void" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050008"/>
+      <stop offset="0.45" stop-color="#12061f"/>
+      <stop offset="1" stop-color="#02040a"/>
     </linearGradient>
-    <linearGradient id="neonBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="35%" stop-color="#ff2a6d"/>
-      <stop offset="70%" stop-color="#fcee0a"/>
-      <stop offset="100%" stop-color="#00f0ff"/>
+    <linearGradient id="neonBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="0.35" stop-color="#ff2a6d"/>
+      <stop offset="0.7" stop-color="#fcee0a"/>
+      <stop offset="1" stop-color="#00f0ff"/>
     </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#1a1030" stroke-width="1"/>
-    </pattern>
-    <pattern id="scan" width="1200" height="6" patternUnits="userSpaceOnUse">
-      <rect width="1200" height="3" fill="#000000" opacity="0.35"/>
-      <rect y="3" width="1200" height="3" fill="transparent"/>
-    </pattern>
-    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="glowPink" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
   <rect width="1200" height="340" fill="url(#void)"/>
-  <rect width="1200" height="340" fill="url(#grid)" opacity="0.85"/>
-  <rect width="1200" height="340" fill="url(#scan)" opacity="0.25"/>
+  <rect width="1200" height="340" fill="#1a1030" opacity="0.12"/>
   <rect x="0" y="0" width="1200" height="5" fill="url(#neonBar)"/>
-  <rect x="0" y="335" width="1200" height="5" fill="url(#neonBar)" opacity="0.65"/>
-  <text x="56" y="78" fill="#7df9ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="0.35em">NETRUNNER_HANDLE</text>
-  <text x="56" y="108" fill="#c8fff8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" font-weight="700" filter="url(#glowCyan)">ALEJANDRO // @Arennull</text>
-  <text x="56" y="195" fill="#ff2a6d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="52" font-weight="800" letter-spacing="0.06em" filter="url(#glowPink)">JACK_IN</text>
-  <text x="420" y="195" fill="#fcee0a" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="22" font-weight="600">TS_RAILWAY_IA_STACK</text>
-  <text x="56" y="248" fill="#9d8bc4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17">Pipelines, modelos, deploys y código: build in public, siempre hambriento.</text>
-  <text x="56" y="285" fill="#5c4d7a" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">STATUS: BREACHING_BOREDOM // MODE: BUILD_IN_PUBLIC</text>
-  <text x="1144" y="318" fill="#2a1f45" text-anchor="end" font-family="ui-monospace,monospace" font-size="13">0xDEAD // 2077</text>
-  <text x="1144" y="78" fill="#ff2a6d" text-anchor="end" font-family="ui-monospace,monospace" font-size="14" opacity="0.9">NET</text>
+  <rect x="0" y="335" width="1200" height="5" fill="url(#neonBar)" opacity="0.7"/>
+  <text x="56" y="78" fill="#7df9ff" font-family="Consolas,Monaco,monospace" font-size="15" letter-spacing="0.35em">NETRUNNER_HANDLE</text>
+  <text x="56" y="108" fill="#c8fff8" font-family="Consolas,Monaco,monospace" font-size="26" font-weight="700">ALEJANDRO // @Arennull</text>
+  <text x="56" y="195" fill="#ff2a6d" font-family="Consolas,Monaco,monospace" font-size="52" font-weight="800" letter-spacing="0.06em">JACK_IN</text>
+  <text x="420" y="195" fill="#fcee0a" font-family="Consolas,Monaco,monospace" font-size="22" font-weight="600">TS_RAILWAY_IA_STACK</text>
+  <text x="56" y="248" fill="#9d8bc4" font-family="Consolas,Monaco,monospace" font-size="17">Pipelines, modelos, deploys y codigo: build in public, siempre hambriento.</text>
+  <text x="56" y="285" fill="#5c4d7a" font-family="Consolas,Monaco,monospace" font-size="14">STATUS: BREACHING_BOREDOM // MODE: BUILD_IN_PUBLIC</text>
+  <text x="1144" y="318" fill="#2a1f45" text-anchor="end" font-family="Consolas,Monaco,monospace" font-size="13">0xDEAD // 2077</text>
+  <text x="1144" y="78" fill="#ff2a6d" text-anchor="end" font-family="Consolas,Monaco,monospace" font-size="14" opacity="0.9">NET</text>
 </svg>

@@ -8,11 +8,11 @@
 ╚══════════════════════════════════════════════════════════════════════════╝
 </pre>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=FF2A6D&center=true&vCenter=true&multiline=true&width=920&height=100&lines=NETRUNNER+ONLINE+%2F%2F+HANDLE+Arennull;TypeScript+es+mi+lengua+franca+%E2%80%94+tipos+duros%2C+arquitectura%2C+tooling;Railway+%2B+APIs+%2B+datos+%2B+IA+%3D+mi+callej%C3%B3n+digital)](https://github.com/Arennull)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=FF2A6D&center=true&vCenter=true&multiline=true&width=920&height=100&lines=NETRUNNER+ONLINE+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+lo+que+surja;IA%2C+datos%2C+cloud+%E2%80%94+siempre+aprendiendo)](https://github.com/Arennull)
 
 [![Profile views](https://komarev.com/ghpvc/?username=Arennull&label=NETWATCH_HITS&color=ff2a6d&style=for-the-badge)](https://github.com/Arennull)
 
-<img src="./assets/banner.svg" alt="Banner netrunner Arennull" width="100%" />
+![Banner netrunner Arennull](assets/banner.png)
 
 </div>
 
@@ -20,15 +20,15 @@
 
 ## `// NETRUNNER_DOSSIER`
 
-> **ES:** Estudio **DAMP**. Vivo en la intersección **IA / seguridad / automatización**: lo que sea que me permita **meter mano al metal**, romper cosas en sandbox y volver a montarlas mejor. **Domino TypeScript** (ecosistema completo: tipado serio, patrones, tooling, front y Node cuando toca). **Railway** lo uso para **levantar servicios y despliegues** sin drama: envs, builds, dominios, iteración rápida.
+> **ES:** Estudio **DAMP**. Me muevo entre **IA**, **seguridad** y **automatización**; me gusta romper cosas en sandbox y volver a montarlas. **TypeScript** y **Railway** son de lo que más cojo el día a día, pero el stack cambia con el repo — nada de lista cerrada.
 
-> **EN:** Same energy in English: **AI**, **cybersecurity**, **automation** — ship fast, learn faster. **TypeScript is home base.** **Railway** for deployments that stay out of the way.
+> **EN:** DAMP student. **AI**, **cybersecurity**, **automation**. **TypeScript** and **Railway** are usual suspects; everything else depends on the project.
 
 ### `// ACTIVE_RUN`
 
-- **TS_RUN:** interfaces, generics, arquitectura en repos; menos `any`, más **contratos**.
-- **RAILWAY_LINK:** APIs y workers al aire; ciclo **push → build → URL** limpio.
-- **ICE_BREAK:** experimentos **IA + backend + datos** (integraciones, pipelines, cosas que suenen a netrun en la práctica).
+- Código y refactors donde **TypeScript** aporta claridad.
+- **Railway** (y lo que toque en cloud) cuando toca sacar algo a producción sin complicarse.
+- Pruebas con **IA + datos + APIs** cuando surge la idea.
 
 ---
 
@@ -42,10 +42,9 @@
 
 ## `// STACK_MATRIX`
 
-**DOMINIO CONFIRMADO (no marketing vacío)**
+Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges como atajo visual, no como catálogo cerrado.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-DOMINIO-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-DEPLOY-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+**TypeScript · Railway** — suelen ser el hilo conductor; el resto va por bloques.
 
 **FRONTEND**
 
@@ -69,7 +68,7 @@
 ![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white)
 
-**SUBSYSTEMS IA / CREATIVE**
+**IA / CREATIVE**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
@@ -98,7 +97,7 @@
 
 <div align="center">
 
-<img src="./assets/github-contribution-grid-snake.svg" alt="Serpiente de contribuciones estilo grid" width="100%" />
+<img src="assets/github-contribution-grid-snake.svg" alt="Serpiente de contribuciones estilo grid" width="100%" />
 
 *SVG generado por workflow. **Actions → Update contribution snake → Run workflow** si hace falta regenerar.*
 
