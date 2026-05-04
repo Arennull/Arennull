@@ -78,18 +78,22 @@ Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges 
 
 ## `// GITHUB_TELEMETRY`
 
+<!-- github-readme-stats.vercel.app pausado (503); nirzak-streak 402. Perfil-summary-cards + streak Demolab. -->
+
 <table>
 <tr>
 <td align="center" valign="top" width="52%">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arennull&theme=radical&hide_border=true&show_icons=true&include_all_commits=false&count_private=true&rank_icon=github&title_color=00f0ff&icon_color=ff2a6d" alt="GitHub stats Arennull" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Arennull&amp;theme=radical" alt="Estadísticas GitHub de Arennull" />
   <br /><br />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Arennull&theme=radical&hide_border=true" alt="Racha de contribuciones" />
+  <img src="https://streak-stats.demolab.com/?user=Arennull&amp;theme=radical&amp;hide_border=true" alt="Racha de contribuciones" />
 </td>
 <td align="center" valign="top" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arennull&theme=radical&hide_border=true&layout=compact&include_all_commits=false&count_private=true&title_color=fcee0a" alt="Top lenguajes" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arennull&amp;theme=radical" alt="Lenguajes por repositorio" />
 </td>
 </tr>
 </table>
+
+<sub>Stats e idiomas: <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>. Racha: <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats.demolab.com</a>.</sub>
 
 ---
 
