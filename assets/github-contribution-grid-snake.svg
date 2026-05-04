@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" role="img" aria-label="Serpiente de contribuciones: ejecuta el workflow de GitHub Actions">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050008"/>
+      <stop offset="100%" stop-color="#12061f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="3" fill="#ff2a6d" opacity="0.9"/>
+  <text x="400" y="88" fill="#00f0ff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" letter-spacing="0.2em">SNAKE_PROTOCOL</text>
+  <text x="400" y="118" fill="#fcee0a" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" font-weight="600">CONTRIBUTION_GRID</text>
+  <text x="400" y="152" fill="#9d8bc4" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">Actions: Update contribution snake - Run workflow</text>
+</svg>
