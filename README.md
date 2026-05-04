@@ -20,7 +20,7 @@
 
 ## `// NETRUNNER_DOSSIER`
 
-> **ES:** Estudio **DAMP**. Me muevo entre **IA**, **seguridad** y **automatización**; me gusta romper cosas en sandbox y volver a montarlas. **TypeScript** y **Railway** son de lo que más cojo el día a día, pero el stack cambia con el repo — nada de lista cerrada.
+> **ES:** Estudio **DAM**. Me muevo entre **IA**, **seguridad** y **automatización**; me gusta romper cosas en sandbox y volver a montarlas. **TypeScript** y **Railway** son de lo que más cojo el día a día, pero el stack cambia con el repo — nada de lista cerrada.
 
 > **EN:** DAMP student. **AI**, **cybersecurity**, **automation**. **TypeScript** and **Railway** are usual suspects; everything else depends on the project.
 
