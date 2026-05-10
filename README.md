@@ -1,58 +1,60 @@
 <div align="center">
 
-<pre>
-╔══════════════════════════════════════════════════════════════════════════╗
-║  NETWATCH  ::  HANDLE @Arennull  ::  CLASS NETRUNNER / STUDENT DAMP      ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  JACK_IN   TS_PIPELINE   RAILWAY_DEPLOY   IA_SUBSYSTEM   REPOS_ONLY_ICE  ║
-╚══════════════════════════════════════════════════════════════════════════╝
-</pre>
+![Arennull cyberpunk profile banner](assets/banner-v2.png)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=FF2A6D&center=true&vCenter=true&multiline=true&width=920&height=100&lines=NETRUNNER+ONLINE+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+lo+que+surja;IA%2C+datos%2C+cloud+%E2%80%94+siempre+aprendiendo)](https://github.com/Arennull)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=FF2A6D&center=true&vCenter=true&width=940&height=64&lines=JACK_IN+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+IA;DAM+student+building+in+public)](https://github.com/Arennull)
 
 [![Profile views](https://komarev.com/ghpvc/?username=Arennull&label=NETWATCH_HITS&color=ff2a6d&style=for-the-badge)](https://github.com/Arennull)
+[![Focus](https://img.shields.io/badge/FOCUS-IA_%2B_AUTOMATION-00F0FF?style=for-the-badge&labelColor=05030A)](#netrunner-dossier)
+[![Stack](https://img.shields.io/badge/CORE-TS_%2B_RAILWAY-FCEE0A?style=for-the-badge&labelColor=05030A)](#stack-matrix)
 
-![Banner netrunner Arennull](assets/banner.png)
+<img src="assets/neon-divider.svg" alt="" width="100%" />
 
 </div>
 
----
+<a id="netrunner-dossier"></a>
 
 ## `// NETRUNNER_DOSSIER`
 
-> **ES:** Estudio **DAM**. Me muevo entre **IA**, **seguridad** y **automatización**; me gusta romper cosas en sandbox y volver a montarlas. **TypeScript** y **Railway** son de lo que más cojo el día a día, pero el stack cambia con el repo — nada de lista cerrada.
+**ES:** Soy **Alejandro / @Arennull**, estudiante de **DAM** y constructor en modo laboratorio. Me muevo entre **TypeScript**, **Railway**, **IA**, datos, APIs y automatización; aprendo rompiendo cosas en sandbox, midiendo qué falla y volviéndolas a montar con más criterio.
 
-> **EN:** DAMP student. **AI**, **cybersecurity**, **automation**. **TypeScript** and **Railway** are usual suspects; everything else depends on the project.
+**EN:** DAM student exploring **AI**, **automation**, **data**, **APIs** and pragmatic cloud deploys. TypeScript and Railway are the usual route; the stack changes when the mission asks for it.
 
-### `// ACTIVE_RUN`
+```txt
+STATUS      online
+MODE        student_builder
+SIGNAL      TypeScript / Railway / AI / data
+RULE        clear code, traceable systems, zero fake hype
+```
 
-- Código y refactors donde **TypeScript** aporta claridad.
-- **Railway** (y lo que toque en cloud) cuando toca sacar algo a producción sin complicarse.
-- Pruebas con **IA + datos + APIs** cuando surge la idea.
+## `// ACTIVE_LABS`
 
----
+No vendo repos que todavía no existen. Aquí va el radar real: líneas de trabajo, pruebas y zonas donde estoy metiendo horas.
 
-## `// UPLINK_SOCIALS`
+| Canal | Qué estoy afinando | Señal técnica |
+| --- | --- | --- |
+| `AI_SYSTEMS` | Ideas con IA, datos y APIs útiles | OpenAI, Hugging Face, prompts, evaluación |
+| `SHIP_MODE` | Deploys simples para sacar prototipos | Railway, Vercel, Cloudflare |
+| `CODECRAFT` | Refactors, estructura y claridad | TypeScript, React, Prisma |
+| `SEC_SANDBOX` | Curiosidad por seguridad sin humo | pruebas controladas, trazabilidad, docs mínimas |
 
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FF2A6D?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/al_ext.f)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/Alejandro-Tiscar-Felix)
-[![Email](https://img.shields.io/badge/SECURE_MAIL-FCEE0A?style=for-the-badge&logo=gmail&logoColor=black)](mailto:alejandrotiscarfelix@gmail.com)
+<div align="center">
+  <img src="assets/neon-divider.svg" alt="" width="100%" />
+</div>
 
----
+<a id="stack-matrix"></a>
 
 ## `// STACK_MATRIX`
 
-Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges como atajo visual, no como catálogo cerrado.
+**Core actual:** TypeScript para ordenar ideas, Railway para ponerlas en línea, IA/datos para convertir curiosidad en sistemas que respondan.
 
-**TypeScript · Railway** — suelen ser el hilo conductor; el resto va por bloques.
-
-**FRONTEND**
+**Frontend**
 
 ![JavaScript](https://img.shields.io/badge/javascript-111?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-**BACKEND / DATOS**
+**Backend / Data**
 
 ![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -60,7 +62,7 @@ Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges 
 ![Postgres](https://img.shields.io/badge/postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-**CLOUD / TOOLING**
+**Cloud / Tooling**
 
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
@@ -68,64 +70,61 @@ Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges 
 ![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white)
 
-**IA / CREATIVE**
+**AI / Creative**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
 
----
+## `// UPLINK_SOCIALS`
+
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FF2A6D?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/al_ext.f)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-00F0FF?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/Alejandro-Tiscar-Felix)
+[![Email](https://img.shields.io/badge/SECURE_MAIL-FCEE0A?style=for-the-badge&logo=gmail&logoColor=black)](mailto:alejandrotiscarfelix@gmail.com)
+
+<div align="center">
+  <img src="assets/neon-divider.svg" alt="" width="100%" />
+</div>
 
 ## `// GITHUB_TELEMETRY`
 
-<!-- github-readme-stats.vercel.app pausado (503); nirzak-streak 402. Perfil-summary-cards + streak Demolab. -->
-
 <table>
 <tr>
-<td align="center" valign="top" width="52%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Arennull&amp;theme=radical" alt="Estadísticas GitHub de Arennull" />
-  <br /><br />
-  <img src="https://streak-stats.demolab.com/?user=Arennull&amp;theme=radical&amp;hide_border=true" alt="Racha de contribuciones" />
+<td align="center" valign="top" width="50%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Arennull&amp;theme=radical" alt="GitHub stats for Arennull" />
 </td>
-<td align="center" valign="top" width="48%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arennull&amp;theme=radical" alt="Lenguajes por repositorio" />
+<td align="center" valign="top" width="50%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arennull&amp;theme=radical" alt="Languages by repository for Arennull" />
 </td>
 </tr>
 </table>
 
-<sub>Stats e idiomas: <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>. Racha: <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats.demolab.com</a>.</sub>
-
----
+<sub>Stats: <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>. Badges: <a href="https://shields.io">Shields.io</a>.</sub>
 
 ## `// CONTRIBUTION_GRID // SNAKE_PROTOCOL`
 
 <div align="center">
 
-<img src="assets/github-contribution-grid-snake.svg" alt="Serpiente de contribuciones estilo grid" width="100%" />
+<img src="assets/github-contribution-grid-snake.svg" alt="GitHub contribution snake grid" width="100%" />
 
-*SVG generado por workflow. **Actions → Update contribution snake → Run workflow** si hace falta regenerar.*
+<sub>SVG generado por workflow: <code>Actions -&gt; Update contribution snake -&gt; Run workflow</code>.</sub>
 
 </div>
 
----
-
 <details>
-<summary><strong><code>// DEEP_NET // FRIKI_LAYER</code></strong></summary>
+<summary><strong><code>// DEEP_NET // OPERATING_NOTES</code></strong></summary>
 
-### Cita (canal alterno)
+### Protocolos
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Cita dev" width="100%" />
+- **Datos -> modelo -> API:** si no hay trazabilidad, no hay run.
+- **Automatizar con cabeza:** primero entender, luego script.
+- **Docs mínimas:** lo justo para que el yo del futuro no pierda el hilo.
+- **Sandbox primero:** probar, medir, romper controlado, reconstruir mejor.
 
-### Protocolos que sigo
+### Mental stack
 
-- **Datos → modelo → API:** sin humo; si no hay trazabilidad, no hay run.
-- **Automatizar** con cabeza: primero entender, luego script.
-- **Docs mínimas** para que el yo del futuro no pierda el hilo en la red.
-
-### Chasis mental
-
-- IDE cargado de extensiones: **overclock** aceptado.
-- Pestañas infinitas: **RAM social** en crítico permanente.
+- IDE tuneado, pestañas infinitas y curiosidad en modo alto voltaje.
+- Preferencia por sistemas pequeños que se pueden entender, desplegar y mejorar.
 
 </details>
 
@@ -133,6 +132,6 @@ Lo que más suelo tocar —**y si el proyecto pide otra cosa, se suma**. Badges 
 
 <div align="center">
 
-<sub><code>README compiled manually // NO_CORP_TEMPLATE // stay chrome, choom</code></sub>
+<sub><code>README compiled manually // CYBERPUNK_PRO // no fake hype // stay chrome</code></sub>
 
 </div>
