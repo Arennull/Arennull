@@ -1,0 +1,55 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arennull cyberpunk status panel">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#18243F" stroke-width="1" opacity="0.7"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F0FF"/>
+      <stop offset="0.52" stop-color="#FF2A6D"/>
+      <stop offset="1" stop-color="#FCEE0A"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: "Cascadia Mono", "Fira Code", Consolas, monospace; }
+      .label { fill: #8FA6C8; font-size: 18px; letter-spacing: 2px; }
+      .value { fill: #EAF7FF; font-size: 30px; font-weight: 700; }
+      .hot { fill: #FF2A6D; }
+      .cyan { fill: #00F0FF; }
+      .yellow { fill: #FCEE0A; }
+      .small { fill: #B9C7E6; font-size: 20px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="#05030A"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)" opacity="0.82"/>
+  <path d="M30 52L52 30H1148L1170 52V248L1148 270H52L30 248V52Z" stroke="url(#edge)" stroke-width="2.5" filter="url(#glow)"/>
+  <path d="M70 84H580M70 216H580M638 84H1116M638 216H1116" stroke="#243657" stroke-width="1.5"/>
+
+  <text class="mono label" x="72" y="72">PROFILE_SIGNAL</text>
+  <text class="mono value hot" x="72" y="120" filter="url(#glow)">ARENNULL // JACK_IN</text>
+  <text class="mono small" x="72" y="160">HANDLE @Arennull</text>
+  <text class="mono small" x="72" y="194">MODE DAM_STUDENT / BUILDER</text>
+  <text class="mono small cyan" x="72" y="238">CORE TS + RAILWAY + AI</text>
+
+  <text class="mono label" x="638" y="72">MISSION_BOARD</text>
+  <text class="mono small" x="638" y="120">AI_SYSTEMS</text>
+  <text class="mono small cyan" x="1000" y="120">ONLINE</text>
+  <text class="mono small" x="638" y="154">SHIP_MODE</text>
+  <text class="mono small yellow" x="1000" y="154">READY</text>
+  <text class="mono small" x="638" y="188">CODECRAFT</text>
+  <text class="mono small hot" x="1000" y="188">ACTIVE</text>
+  <text class="mono small" x="638" y="238">RULE</text>
+  <text class="mono small" x="760" y="238">TRACEABLE SYSTEMS / ZERO FAKE HYPE</text>
+
+  <circle cx="1110" cy="116" r="7" fill="#00F0FF" filter="url(#glow)"/>
+  <circle cx="1110" cy="150" r="7" fill="#FCEE0A" filter="url(#glow)"/>
+  <circle cx="1110" cy="184" r="7" fill="#FF2A6D" filter="url(#glow)"/>
+  <path d="M916 256H1076L1102 236" stroke="#FF2A6D" stroke-width="2" stroke-linecap="round"/>
+  <path d="M96 44H226M974 44H1104" stroke="#00F0FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

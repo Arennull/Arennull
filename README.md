@@ -1,12 +1,14 @@
 <div align="center">
 
-![Arennull cyberpunk profile banner](assets/banner-v2.png)
+![Arennull cyberpunk profile banner](assets/banner-v3.jpg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=FF2A6D&center=true&vCenter=true&width=940&height=64&lines=JACK_IN+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+IA;DAM+student+building+in+public)](https://github.com/Arennull)
 
 [![Profile views](https://komarev.com/ghpvc/?username=Arennull&label=NETWATCH_HITS&color=ff2a6d&style=for-the-badge)](https://github.com/Arennull)
 [![Focus](https://img.shields.io/badge/FOCUS-IA_%2B_AUTOMATION-00F0FF?style=for-the-badge&labelColor=05030A)](#netrunner-dossier)
 [![Stack](https://img.shields.io/badge/CORE-TS_%2B_RAILWAY-FCEE0A?style=for-the-badge&labelColor=05030A)](#stack-matrix)
+
+<img src="assets/status-panel.svg" alt="Arennull status panel" width="100%" />
 
 <img src="assets/neon-divider.svg" alt="" width="100%" />
 
@@ -29,14 +31,26 @@ RULE        clear code, traceable systems, zero fake hype
 
 ## `// ACTIVE_LABS`
 
-No vendo repos que todavía no existen. Aquí va el radar real: líneas de trabajo, pruebas y zonas donde estoy metiendo horas.
+No vendo repos que todavía no existen. Este es el radar real: líneas de trabajo, pruebas y zonas donde estoy metiendo horas.
 
-| Canal | Qué estoy afinando | Señal técnica |
-| --- | --- | --- |
-| `AI_SYSTEMS` | Ideas con IA, datos y APIs útiles | OpenAI, Hugging Face, prompts, evaluación |
-| `SHIP_MODE` | Deploys simples para sacar prototipos | Railway, Vercel, Cloudflare |
-| `CODECRAFT` | Refactors, estructura y claridad | TypeScript, React, Prisma |
-| `SEC_SANDBOX` | Curiosidad por seguridad sin humo | pruebas controladas, trazabilidad, docs mínimas |
+**`[BUILDING] AI_SYSTEMS`**  
+Ideas con IA, datos y APIs útiles. Señal técnica: OpenAI, Hugging Face, prompts, evaluación y trazabilidad.
+
+**`[READY] SHIP_MODE`**  
+Deploys simples para sacar prototipos sin montar una nave espacial. Señal técnica: Railway, Vercel y Cloudflare.
+
+**`[ACTIVE] CODECRAFT`**  
+Refactors, estructura y claridad cuando el repo pide orden. Señal técnica: TypeScript, React, Prisma y buenas costumbres.
+
+**`[CONTROLLED] SEC_SANDBOX`**  
+Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límites claros y docs mínimas.
+
+## `// NEXT_BUILDS`
+
+- `AI_API_LAB` - mini APIs con IA donde se pueda seguir el camino dato -> modelo -> respuesta.
+- `RAILWAY_SHIP_LOG` - despliegues pequeños documentados como bitácora técnica.
+- `DASHBOARD_NODE` - paneles simples para datos, métricas o automatizaciones.
+- `SECURITY_NOTES` - apuntes de sandbox y aprendizaje sin vender humo.
 
 <div align="center">
   <img src="assets/neon-divider.svg" alt="" width="100%" />
@@ -46,7 +60,7 @@ No vendo repos que todavía no existen. Aquí va el radar real: líneas de traba
 
 ## `// STACK_MATRIX`
 
-**Core actual:** TypeScript para ordenar ideas, Railway para ponerlas en línea, IA/datos para convertir curiosidad en sistemas que respondan.
+**Core actual:** TypeScript para ordenar ideas, Railway para ponerlas en línea, IA/datos para convertir curiosidad en sistemas que respondan. Los badges son mapa visual, no catálogo cerrado.
 
 **Frontend**
 
@@ -132,6 +146,6 @@ No vendo repos que todavía no existen. Aquí va el radar real: líneas de traba
 
 <div align="center">
 
-<sub><code>README compiled manually // CYBERPUNK_PRO // no fake hype // stay chrome</code></sub>
+<sub><code>README compiled manually // CYBERPUNK_PRO_v2.1 // no fake hype // stay chrome</code></sub>
 
 </div>
