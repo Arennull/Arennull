@@ -1,0 +1,78 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BIOS_ARENNULL boot sequence">
+  <defs>
+    <linearGradient id="bs-edge" x1="0" y1="0" x2="1200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F0FF"/>
+      <stop offset="1" stop-color="#FF2A6D"/>
+    </linearGradient>
+    <filter id="bs-glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .m { font-family: "Cascadia Mono","Fira Code",Consolas,monospace; font-size: 16px; }
+      .prompt { fill:#7BFFB0; }
+      .label  { fill:#B9C7E6; }
+      .ok     { fill:#7BFFB0; }
+      .warn   { fill:#FCEE0A; }
+      .hot    { fill:#FF2A6D; }
+      .cy     { fill:#00F0FF; }
+      .mu     { fill:#6E84AC; font-size: 12px; letter-spacing: 1.5px; }
+      .tit    { fill:#EAF7FF; font-size: 13px; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" rx="14" fill="#05030A"/>
+  <rect x="6" y="6" width="1188" height="228" rx="10" stroke="url(#bs-edge)" stroke-width="1.8" filter="url(#bs-glow)"/>
+
+  <rect x="6" y="6" width="1188" height="36" rx="10" fill="#0A0716"/>
+  <circle cx="28" cy="24" r="6" fill="#FF2A6D"/>
+  <circle cx="50" cy="24" r="6" fill="#FCEE0A"/>
+  <circle cx="72" cy="24" r="6" fill="#00F0FF"/>
+  <text class="m tit" x="100" y="29">arennull@netrun:~$ ./bios_jack_in --rev 3.1</text>
+  <text class="m mu"  x="1058" y="29">REV 3.1</text>
+
+  <g transform="translate(28,72)">
+    <g opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">BIOS_ARENNULL v3.1 ................................</text>
+      <text class="m ok"    x="730">[ OK ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0;0.02;0.07;0.85;0.88;0.9;0.93;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,28)" opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">mount /labs/ai_systems ............................</text>
+      <text class="m cy"    x="730">[ ONLINE ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.18;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,52)" opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">mount /labs/ship_mode .............................</text>
+      <text class="m warn"  x="730">[ READY ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.29;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,76)" opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">mount /labs/codecraft .............................</text>
+      <text class="m hot"   x="730">[ ACTIVE ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.40;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,100)" opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">mount /labs/sec_sandbox ...........................</text>
+      <text class="m mu"    x="730" style="font-size:16px; letter-spacing:0;">[ LIMITED ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.51;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,124)" opacity="0">
+      <text class="m prompt">&gt;</text>
+      <text class="m label" x="22">auth user=arennull token=*********** ..............</text>
+      <text class="m ok"    x="730">[ JACK_IN ]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.57;0.62;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(0,150)">
+      <text class="m prompt">&gt;</text>
+      <rect x="22" y="-12" width="10" height="16" fill="#7BFFB0">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

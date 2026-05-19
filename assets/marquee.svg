@@ -1,0 +1,56 @@
+<svg width="1200" height="44" viewBox="0 0 1200 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arennull mantra marquee">
+  <defs>
+    <linearGradient id="mq-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.06" stop-color="#000" stop-opacity="1"/>
+      <stop offset="0.94" stop-color="#000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mq-edge" x1="0" y1="0" x2="1200" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F0FF"/>
+      <stop offset="0.5" stop-color="#FCEE0A"/>
+      <stop offset="1" stop-color="#FF2A6D"/>
+    </linearGradient>
+    <filter id="mq-glow" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur stdDeviation="0.9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <mask id="mq-mask">
+      <rect width="1200" height="44" fill="url(#mq-fade)"/>
+    </mask>
+    <style>
+      .m { font-family: "Cascadia Mono","Fira Code",Consolas,monospace; font-size: 16px; letter-spacing: 4px; fill:#EAF7FF; }
+      .pin { fill:#FF2A6D; }
+      .cy  { fill:#00F0FF; }
+      .yl  { fill:#FCEE0A; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="44" fill="#05030A"/>
+  <rect x="0" y="21" width="1200" height="1" fill="url(#mq-edge)" opacity="0.4"/>
+  <rect x="0" y="22" width="1200" height="1" fill="url(#mq-edge)" opacity="0.4"/>
+
+  <g mask="url(#mq-mask)" filter="url(#mq-glow)">
+    <g>
+      <text class="m" y="28">
+        <tspan class="cy">·</tspan> trace
+        <tspan class="cy">·</tspan> ship
+        <tspan class="cy">·</tspan> refactor
+        <tspan class="cy">·</tspan> sandbox
+        <tspan class="yl">·</tspan> data → model → API
+        <tspan class="pin">·</tspan> no fake hype
+        <tspan class="pin">·</tspan> stay chrome
+        <tspan class="yl">·</tspan> jack_in
+        <tspan class="cy">·</tspan> trace
+        <tspan class="cy">·</tspan> ship
+        <tspan class="cy">·</tspan> refactor
+        <tspan class="cy">·</tspan> sandbox
+        <tspan class="yl">·</tspan> data → model → API
+        <tspan class="pin">·</tspan> no fake hype
+        <tspan class="pin">·</tspan> stay chrome
+        <tspan class="yl">·</tspan> jack_in
+      </text>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="28s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

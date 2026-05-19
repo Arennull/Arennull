@@ -1,6 +1,18 @@
+<!--
+  ╔══════════════════════════════════════════════════════════╗
+  ║   ARENNULL // NETRUNNER PROFILE  //  CYBERPUNK_PRO v3.1  ║
+  ║   you found the source. stay chrome.                     ║
+  ╚══════════════════════════════════════════════════════════╝
+-->
+
 <div align="center">
 
-![Arennull cyberpunk profile banner](assets/banner-v3.jpg)
+<picture>
+  <source srcset="assets/banner-v3.svg" type="image/svg+xml">
+  <img src="assets/banner-v3.jpg" alt="Arennull cyberpunk profile banner" width="100%" />
+</picture>
+
+<img src="assets/marquee.svg" alt="trace · ship · refactor · sandbox · data → model → API · no fake hype · stay chrome" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=FF2A6D&center=true&vCenter=true&width=940&height=64&lines=JACK_IN+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+AI;DAM+student+building+in+public;trace+%E2%86%92+ship+%E2%86%92+refactor+%E2%86%92+sandbox)](https://github.com/Arennull)
 
@@ -23,12 +35,7 @@
 
 **EN** — DAM student exploring **AI**, **automation**, **data**, **APIs** and pragmatic cloud deploys. TypeScript and Railway are the usual route; the stack changes when the mission asks for it.
 
-```txt
-STATUS      online
-MODE        student_builder
-SIGNAL      TypeScript / Railway / AI / data
-RULE        clear code · traceable systems · zero fake hype
-```
+<img src="assets/boot-sequence.svg" alt="BIOS_ARENNULL boot sequence — mounting labs and jacking in" width="100%" />
 
 <a id="active-labs"></a>
 
@@ -120,7 +127,7 @@ No vendo repos que todavía no existen. Esto es el radar real: líneas de trabaj
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arennull&layout=compact&theme=radical&hide_border=true&bg_color=05030A&title_color=FF2A6D&text_color=B9C7E6" alt="Top languages for Arennull" />
 </td>
 <td align="center" valign="top" width="50%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arennull&theme=radical" alt="Profile details for Arennull" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Arennull&theme=radical&hide_border=true&bg_color=05030A&title_color=FF2A6D&text_color=B9C7E6&layout=compact" alt="WakaTime weekly languages for Arennull" />
 </td>
 </tr>
 </table>
@@ -129,7 +136,9 @@ No vendo repos que todavía no existen. Esto es el radar real: líneas de trabaj
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Arennull&theme=radical&no-bg=true&no-frame=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
 
-<sub>Cards: <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a> · <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">profile-summary-cards</a> · <a href="https://github.com/ryo-ma/github-profile-trophy">profile-trophy</a>. Badges: <a href="https://shields.io">Shields.io</a>.</sub>
+<img src="assets/metrics.svg" alt="Auto-generated metrics for Arennull — updated weekly" width="100%" />
+
+<sub>Cards: <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a> · <a href="https://github.com/ryo-ma/github-profile-trophy">profile-trophy</a> · <a href="https://github.com/lowlighter/metrics">metrics</a>. Badges: <a href="https://shields.io">Shields.io</a>. WakaTime via <a href="https://wakatime.com/@Arennull">@Arennull</a>.</sub>
 
 </div>
 
@@ -159,12 +168,19 @@ No vendo repos que todavía no existen. Esto es el radar real: líneas de trabaj
 - Preferencia por sistemas pequeños que se pueden entender, desplegar y mejorar.
 - Cuando algo escala, escala con razón — no por estética.
 
+### Field manual
+
+- **Snake grid:** se regenera solo (cron diario 05:00 UTC) y a mano con `Actions → Update contribution snake → Run workflow`.
+- **Metrics SVG:** cron semanal lunes 06:00 UTC. Requiere secret `METRICS_TOKEN` (PAT con `repo` + `read:user`).
+- **Banner SVG:** edita `assets/banner-v3.svg` directamente; el JPG queda como fallback dentro del `<picture>`.
+- **Bitácora:** revisiones en [`CHANGELOG.md`](CHANGELOG.md).
+
 </details>
 
 ---
 
 <div align="center">
 
-<sub><code>README compiled manually // CYBERPUNK_PRO_v3.0 // no fake hype // stay chrome</code></sub>
+<sub><code>README compiled manually // CYBERPUNK_PRO_v3.1 // no fake hype // stay chrome</code></sub>
 
 </div>
