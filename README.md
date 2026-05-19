@@ -2,11 +2,12 @@
 
 ![Arennull cyberpunk profile banner](assets/banner-v3.jpg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=FF2A6D&center=true&vCenter=true&width=940&height=64&lines=JACK_IN+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+IA;DAM+student+building+in+public)](https://github.com/Arennull)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=700&color=FF2A6D&center=true&vCenter=true&width=940&height=64&lines=JACK_IN+%2F%2F+HANDLE+Arennull;TypeScript+%2B+Railway+%2B+AI;DAM+student+building+in+public;trace+%E2%86%92+ship+%E2%86%92+refactor+%E2%86%92+sandbox)](https://github.com/Arennull)
 
 [![Profile views](https://komarev.com/ghpvc/?username=Arennull&label=NETWATCH_HITS&color=ff2a6d&style=for-the-badge)](https://github.com/Arennull)
-[![Focus](https://img.shields.io/badge/FOCUS-IA_%2B_AUTOMATION-00F0FF?style=for-the-badge&labelColor=05030A)](#netrunner-dossier)
+[![Focus](https://img.shields.io/badge/FOCUS-AI_%2B_AUTOMATION-00F0FF?style=for-the-badge&labelColor=05030A)](#netrunner-dossier)
 [![Stack](https://img.shields.io/badge/CORE-TS_%2B_RAILWAY-FCEE0A?style=for-the-badge&labelColor=05030A)](#stack-matrix)
+[![Status](https://img.shields.io/badge/STATUS-ONLINE-7BFFB0?style=for-the-badge&labelColor=05030A)](#active-labs)
 
 <img src="assets/status-panel.svg" alt="Arennull status panel" width="100%" />
 
@@ -18,39 +19,38 @@
 
 ## `// NETRUNNER_DOSSIER`
 
-**ES:** Soy **Alejandro / @Arennull**, estudiante de **DAM** y constructor en modo laboratorio. Me muevo entre **TypeScript**, **Railway**, **IA**, datos, APIs y automatización; aprendo rompiendo cosas en sandbox, midiendo qué falla y volviéndolas a montar con más criterio.
+**ES** — Soy **Alejandro / @Arennull**, estudiante de **DAM** y constructor en modo laboratorio. Me muevo entre **TypeScript**, **Railway** e **IA**; aprendo rompiendo cosas en sandbox, midiendo qué falla y volviéndolas a montar con más criterio. Stack abierto, código limpio, sistemas trazables.
 
-**EN:** DAM student exploring **AI**, **automation**, **data**, **APIs** and pragmatic cloud deploys. TypeScript and Railway are the usual route; the stack changes when the mission asks for it.
+**EN** — DAM student exploring **AI**, **automation**, **data**, **APIs** and pragmatic cloud deploys. TypeScript and Railway are the usual route; the stack changes when the mission asks for it.
 
 ```txt
 STATUS      online
 MODE        student_builder
 SIGNAL      TypeScript / Railway / AI / data
-RULE        clear code, traceable systems, zero fake hype
+RULE        clear code · traceable systems · zero fake hype
 ```
+
+<a id="active-labs"></a>
 
 ## `// ACTIVE_LABS`
 
-No vendo repos que todavía no existen. Este es el radar real: líneas de trabajo, pruebas y zonas donde estoy metiendo horas.
+<img src="assets/now-running.svg" alt="Now running — active processes" width="100%" />
 
-**`[BUILDING] AI_SYSTEMS`**  
-Ideas con IA, datos y APIs útiles. Señal técnica: OpenAI, Hugging Face, prompts, evaluación y trazabilidad.
+No vendo repos que todavía no existen. Esto es el radar real: líneas de trabajo, pruebas y zonas donde estoy metiendo horas.
 
-**`[READY] SHIP_MODE`**  
-Deploys simples para sacar prototipos sin montar una nave espacial. Señal técnica: Railway, Vercel y Cloudflare.
-
-**`[ACTIVE] CODECRAFT`**  
-Refactors, estructura y claridad cuando el repo pide orden. Señal técnica: TypeScript, React, Prisma y buenas costumbres.
-
-**`[CONTROLLED] SEC_SANDBOX`**  
-Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límites claros y docs mínimas.
+| Lab | Estado | Señal técnica |
+|---|---|---|
+| **AI_SYSTEMS** | `[BUILDING]` | OpenAI · Hugging Face · prompts · eval · traza |
+| **SHIP_MODE**  | `[READY]`    | Railway · Vercel · Cloudflare |
+| **CODECRAFT**  | `[ACTIVE]`   | TypeScript · React · Prisma · refactors |
+| **SEC_SANDBOX**| `[CONTROLLED]` | pruebas controladas · límites claros · docs mínimas |
 
 ## `// NEXT_BUILDS`
 
-- `AI_API_LAB` - mini APIs con IA donde se pueda seguir el camino dato -> modelo -> respuesta.
-- `RAILWAY_SHIP_LOG` - despliegues pequeños documentados como bitácora técnica.
-- `DASHBOARD_NODE` - paneles simples para datos, métricas o automatizaciones.
-- `SECURITY_NOTES` - apuntes de sandbox y aprendizaje sin vender humo.
+- `AI_API_LAB` — mini APIs con IA donde se sigue el camino dato → modelo → respuesta.
+- `RAILWAY_SHIP_LOG` — despliegues pequeños documentados como bitácora técnica.
+- `DASHBOARD_NODE` — paneles simples para datos, métricas o automatizaciones.
+- `SECURITY_NOTES` — apuntes de sandbox y aprendizaje sin vender humo.
 
 <div align="center">
   <img src="assets/neon-divider.svg" alt="" width="100%" />
@@ -60,7 +60,9 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 ## `// STACK_MATRIX`
 
-**Core actual:** TypeScript para ordenar ideas, Railway para ponerlas en línea, IA/datos para convertir curiosidad en sistemas que respondan. Los badges son mapa visual, no catálogo cerrado.
+<img src="assets/loadout.svg" alt="Arennull loadout — current stack matrix" width="100%" />
+
+**Core actual:** TypeScript para ordenar ideas, Railway para ponerlas en línea, IA/datos para convertir curiosidad en sistemas que respondan. Los badges de abajo son mapa visual, no catálogo cerrado.
 
 **Frontend**
 
@@ -70,6 +72,7 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 **Backend / Data**
 
+![Node.js](https://img.shields.io/badge/node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -81,6 +84,7 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-121011?style=for-the-badge&logo=github&logoColor=white)
 
@@ -105,15 +109,29 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Arennull&amp;theme=radical" alt="GitHub stats for Arennull" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Arennull&show_icons=true&theme=radical&hide_border=true&bg_color=05030A&title_color=FF2A6D&icon_color=00F0FF&text_color=B9C7E6&ring_color=FCEE0A" alt="GitHub stats for Arennull" />
 </td>
 <td align="center" valign="top" width="50%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arennull&amp;theme=radical" alt="Languages by repository for Arennull" />
+  <img src="https://streak-stats.demolab.com?user=Arennull&theme=radical&hide_border=true&background=05030A&stroke=FF2A6D&ring=00F0FF&fire=FCEE0A&currStreakLabel=FF2A6D&sideLabels=B9C7E6&dates=8FA6C8&currStreakNum=EAF7FF&sideNums=EAF7FF" alt="GitHub streak for Arennull" />
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arennull&layout=compact&theme=radical&hide_border=true&bg_color=05030A&title_color=FF2A6D&text_color=B9C7E6" alt="Top languages for Arennull" />
+</td>
+<td align="center" valign="top" width="50%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arennull&theme=radical" alt="Profile details for Arennull" />
 </td>
 </tr>
 </table>
 
-<sub>Stats: <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a>. Badges: <a href="https://shields.io">Shields.io</a>.</sub>
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Arennull&theme=radical&no-bg=true&no-frame=true&row=1&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+<sub>Cards: <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> · <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a> · <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">profile-summary-cards</a> · <a href="https://github.com/ryo-ma/github-profile-trophy">profile-trophy</a>. Badges: <a href="https://shields.io">Shields.io</a>.</sub>
+
+</div>
 
 ## `// CONTRIBUTION_GRID // SNAKE_PROTOCOL`
 
@@ -121,7 +139,7 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 <img src="assets/github-contribution-grid-snake.svg" alt="GitHub contribution snake grid" width="100%" />
 
-<sub>SVG generado por workflow: <code>Actions -&gt; Update contribution snake -&gt; Run workflow</code>.</sub>
+<sub>SVG generado por workflow: <code>Actions → Update contribution snake → Run workflow</code> (cron diario 05:00 UTC).</sub>
 
 </div>
 
@@ -130,7 +148,7 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 ### Protocolos
 
-- **Datos -> modelo -> API:** si no hay trazabilidad, no hay run.
+- **Datos → modelo → API:** si no hay trazabilidad, no hay run.
 - **Automatizar con cabeza:** primero entender, luego script.
 - **Docs mínimas:** lo justo para que el yo del futuro no pierda el hilo.
 - **Sandbox primero:** probar, medir, romper controlado, reconstruir mejor.
@@ -139,6 +157,7 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 - IDE tuneado, pestañas infinitas y curiosidad en modo alto voltaje.
 - Preferencia por sistemas pequeños que se pueden entender, desplegar y mejorar.
+- Cuando algo escala, escala con razón — no por estética.
 
 </details>
 
@@ -146,6 +165,6 @@ Curiosidad por seguridad sin humo. Señal técnica: pruebas controladas, límite
 
 <div align="center">
 
-<sub><code>README compiled manually // CYBERPUNK_PRO_v2.1 // no fake hype // stay chrome</code></sub>
+<sub><code>README compiled manually // CYBERPUNK_PRO_v3.0 // no fake hype // stay chrome</code></sub>
 
 </div>

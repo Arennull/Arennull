@@ -1,12 +1,17 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arennull cyberpunk status panel">
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arennull cyberpunk status panel">
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#18243F" stroke-width="1" opacity="0.7"/>
+      <path d="M32 0H0V32" stroke="#18243F" stroke-width="1" opacity="0.65"/>
     </pattern>
-    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#00F0FF"/>
       <stop offset="0.52" stop-color="#FF2A6D"/>
       <stop offset="1" stop-color="#FCEE0A"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00F0FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00F0FF" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
       <feGaussianBlur stdDeviation="3.5" result="blur"/>
@@ -15,6 +20,16 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <path d="M30 52L52 30H1148L1170 52V268L1148 290H52L30 268V52Z"/>
+    </clipPath>
     <style>
       .mono { font-family: "Cascadia Mono", "Fira Code", Consolas, monospace; }
       .label { fill: #8FA6C8; font-size: 18px; letter-spacing: 2px; }
@@ -23,33 +38,67 @@
       .cyan { fill: #00F0FF; }
       .yellow { fill: #FCEE0A; }
       .small { fill: #B9C7E6; font-size: 20px; }
+      .micro { fill: #6E84AC; font-size: 13px; letter-spacing: 1.5px; }
     </style>
   </defs>
 
-  <rect width="1200" height="300" rx="18" fill="#05030A"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)" opacity="0.82"/>
-  <path d="M30 52L52 30H1148L1170 52V248L1148 270H52L30 248V52Z" stroke="url(#edge)" stroke-width="2.5" filter="url(#glow)"/>
-  <path d="M70 84H580M70 216H580M638 84H1116M638 216H1116" stroke="#243657" stroke-width="1.5"/>
+  <rect width="1200" height="320" rx="18" fill="#05030A"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)" opacity="0.82"/>
 
-  <text class="mono label" x="72" y="72">PROFILE_SIGNAL</text>
-  <text class="mono value hot" x="72" y="120" filter="url(#glow)">ARENNULL // JACK_IN</text>
-  <text class="mono small" x="72" y="160">HANDLE @Arennull</text>
-  <text class="mono small" x="72" y="194">MODE DAM_STUDENT / BUILDER</text>
-  <text class="mono small cyan" x="72" y="238">CORE TS + RAILWAY + AI</text>
+  <g clip-path="url(#frameClip)">
+    <rect x="0" y="0" width="1200" height="60" fill="url(#scanGrad)">
+      <animate attributeName="y" values="-60;320" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <text class="mono label" x="638" y="72">MISSION_BOARD</text>
-  <text class="mono small" x="638" y="120">AI_SYSTEMS</text>
-  <text class="mono small cyan" x="1000" y="120">ONLINE</text>
-  <text class="mono small" x="638" y="154">SHIP_MODE</text>
-  <text class="mono small yellow" x="1000" y="154">READY</text>
-  <text class="mono small" x="638" y="188">CODECRAFT</text>
-  <text class="mono small hot" x="1000" y="188">ACTIVE</text>
-  <text class="mono small" x="638" y="238">RULE</text>
-  <text class="mono small" x="760" y="238">TRACEABLE SYSTEMS / ZERO FAKE HYPE</text>
+  <path d="M30 52L52 30H1148L1170 52V268L1148 290H52L30 268V52Z"
+        stroke="url(#edge)" stroke-width="2.5" filter="url(#glow)"/>
 
-  <circle cx="1110" cy="116" r="7" fill="#00F0FF" filter="url(#glow)"/>
-  <circle cx="1110" cy="150" r="7" fill="#FCEE0A" filter="url(#glow)"/>
-  <circle cx="1110" cy="184" r="7" fill="#FF2A6D" filter="url(#glow)"/>
-  <path d="M916 256H1076L1102 236" stroke="#FF2A6D" stroke-width="2" stroke-linecap="round"/>
-  <path d="M96 44H226M974 44H1104" stroke="#00F0FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M70 84H560M70 220H560M640 84H1116M640 220H1116" stroke="#243657" stroke-width="1.5"/>
+
+  <text class="mono micro" x="70" y="50">SYS://PROFILE_NODE_07 // UPTIME 24/7 // SECURE</text>
+  <text class="mono micro" x="1014" y="50">REV 3.0 // STAY_CHROME</text>
+
+  <text class="mono label" x="72" y="74">PROFILE_SIGNAL</text>
+  <text class="mono value hot" x="72" y="122" filter="url(#glow)">ARENNULL // JACK_IN</text>
+  <text class="mono small" x="72" y="162">HANDLE  <tspan class="cyan">@Arennull</tspan></text>
+  <text class="mono small" x="72" y="194">MODE    DAM_STUDENT / BUILDER</text>
+  <text class="mono small" x="72" y="246">CORE    <tspan class="cyan">TS</tspan> + <tspan class="yellow">RAILWAY</tspan> + <tspan class="hot">AI</tspan></text>
+  <text class="mono micro" x="72" y="274">PROTOCOLS  trace · ship · refactor · sandbox</text>
+
+  <text class="mono label" x="640" y="74">MISSION_BOARD</text>
+
+  <text class="mono small" x="640" y="118">AI_SYSTEMS</text>
+  <text class="mono small cyan" x="1014" y="118">ONLINE</text>
+  <circle cx="1110" cy="113" r="7" fill="#00F0FF" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="mono small" x="640" y="152">SHIP_MODE</text>
+  <text class="mono small yellow" x="1014" y="152">READY</text>
+  <circle cx="1110" cy="147" r="7" fill="#FCEE0A" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.1s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="mono small" x="640" y="186">CODECRAFT</text>
+  <text class="mono small hot" x="1014" y="186">ACTIVE</text>
+  <circle cx="1110" cy="181" r="7" fill="#FF2A6D" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.9s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="mono small" x="640" y="220" dy="26">SEC_SANDBOX</text>
+  <text class="mono small" x="1014" y="220" dy="26" fill="#8FA6C8">LIMITED</text>
+  <circle cx="1110" cy="241" r="7" fill="#8FA6C8" opacity="0.55"/>
+
+  <text class="mono micro" x="640" y="280">RULE  traceable systems · zero fake hype</text>
+
+  <path d="M96 44H226M974 44H1104" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M916 276H1076L1102 256" stroke="#FF2A6D" stroke-width="2" stroke-linecap="round" filter="url(#softGlow)"/>
+
+  <g transform="translate(72,210)">
+    <rect x="0" y="0" width="468" height="8" rx="4" fill="#101a2e"/>
+    <rect x="0" y="0" width="468" height="8" rx="4" fill="#FF2A6D" opacity="0.85" filter="url(#softGlow)">
+      <animate attributeName="width" values="40;468;320;468" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
