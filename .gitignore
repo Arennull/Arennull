@@ -1,0 +1,6 @@
+# Local-only image prep + preview artifacts (regenerated on demand)
+source-prepped.png
+photo-placeholder.png
+photo-source.*
+*preview*.png
+__pycache__/

@@ -1,0 +1,3 @@
+# Lightweight deps used by the daily GitHub Actions workflow (no CV libs, so CI is fast).
+requests
+beautifulsoup4

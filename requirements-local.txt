@@ -1,0 +1,9 @@
+# Local, one-time image-prep + preview dependencies.
+# These are heavy (computer-vision + a browser) and are NOT needed by CI.
+# Install once on your machine:  pip install -r requirements-local.txt
+pillow
+numpy
+opencv-python
+rembg
+onnxruntime
+playwright   # only used by scripts/preview_svg.py to rasterize SVG previews

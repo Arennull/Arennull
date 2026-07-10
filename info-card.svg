@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="477" viewBox="0 0 490 477" role="img" aria-label="Info card">
+  <style>
+    text{font-family:ui-monospace,'Cascadia Mono','Fira Code',Consolas,monospace}
+    .lbl{fill:#8a8a92;font-size:15px;letter-spacing:1px}
+    .val{fill:#e8e8ea;font-size:15px}
+    .row{}
+    @keyframes fin{to{opacity:1}}
+  </style>
+  <rect x="1" y="1" width="488" height="475" rx="12" fill="#0b0b0e" stroke="#26262c" stroke-width="1.5"/>
+  <circle cx="26" cy="34" r="4" fill="#8a8a92"/>
+  <circle cx="42" cy="34" r="4" fill="#26262c"/>
+  <circle cx="58" cy="34" r="4" fill="#26262c"/>
+  <text x="464" y="41" text-anchor="end" class="lbl" font-size="15">// OPERATOR</text>
+  <text x="26" y="59" class="val" font-size="15" fill="#e8e8ea">alejandro@arennull:~$</text>
+  <line x1="26" y1="71" x2="464" y2="71" stroke="#26262c" stroke-width="1"/>
+  <g class="row">
+    <text x="26" y="120" class="lbl">ROLE</text>
+    <text x="118" y="120" class="val">DAM student · building in public</text>
+  </g>
+  <g class="row">
+    <text x="26" y="172" class="lbl">STACK</text>
+    <text x="118" y="172" class="val">TypeScript · Python · Node</text>
+  </g>
+  <g class="row">
+    <text x="26" y="223" class="lbl">SHIP</text>
+    <text x="118" y="223" class="val">Railway · Vercel · Cloudflare</text>
+  </g>
+  <g class="row">
+    <text x="26" y="275" class="lbl">AI</text>
+    <text x="118" y="275" class="val">OpenAI · Hugging Face · eval</text>
+  </g>
+  <g class="row">
+    <text x="26" y="327" class="lbl">CODE</text>
+    <text x="118" y="327" class="val">React · Prisma · clean refactors</text>
+  </g>
+  <g class="row">
+    <text x="26" y="378" class="lbl">FOCUS</text>
+    <text x="118" y="378" class="val">AI · automation · data · APIs</text>
+  </g>
+  <g class="row">
+    <text x="26" y="430" class="lbl">MODE</text>
+    <text x="118" y="430" class="val">trace → ship → refactor → sandbox</text>
+  </g>
+</svg>
