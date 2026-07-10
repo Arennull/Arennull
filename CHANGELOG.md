@@ -3,6 +3,17 @@
 > Bitácora de revisiones del perfil. Docs mínimas. Stay chrome.
 > Log of profile README revisions. Minimal docs by design.
 
+## REV 4.0 — 2026-07-10
+
+- `NEW` Rediseño completo a estética **monocroma** (sin neón, sin glitch).
+- `ADD` `scripts/` — toolkit que genera el perfil: retrato ASCII/Braille que se
+  escribe solo (`make_ascii_svg.py`, `prep_photo.py`), panel de info
+  (`make_info_card.py`) y heatmap de contribuciones (`fetch_contributions.py`,
+  `render_heatmap_svg.py`) con reveal celda a celda. SVG puro, sin JS.
+- `ADD` `.github/workflows/update-profile-art.yml` — re-scrapea contribuciones y
+  re-renderiza el heatmap a diario, sin auth.
+- `DEL` workflows `snake.yml` + `metrics.yml`; assets neón movidos a `assets/archive/`.
+
 ## REV 3.1 — 2026-05-19
 
 - `ADD` `assets/banner-v3.svg` — banner animado con glitch RGB-split, parallax de skyline y typewriter.
