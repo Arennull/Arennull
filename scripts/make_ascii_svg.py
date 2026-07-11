@@ -33,6 +33,10 @@ PAD         = 18            # px padding around the art
 PER_ROW     = 0.055         # seconds between each row starting to type
 ROW_DUR     = 0.75          # seconds a single row takes to reveal
 BRAILLE_DOT = 3            # px per Braille dot when input is Braille art
+CARD        = True         # frame the portrait in a bordered card
+CARD_BORDER = "#26262c"    # card border (matches info card / header)
+CARD_RADIUS = 14
+GLOW        = 1.5          # soft halo behind the ink (0 = off)
 # ===========================================================================
 
 STATIC = os.environ.get("STATIC") == "1"
@@ -129,12 +133,47 @@ def build_braille_svg(lines) -> str:
     width = 2 * PAD + wdots * d
     height = 2 * PAD + len(lines) * 4 * d + 4 * d  # +band for cursor
 
+    glow_def = (
+        f'    <filter id="glow" x="-15%" y="-15%" width="130%" height="130%">'
+        f'<feGaussianBlur stdDeviation="{GLOW}" result="b"/>'
+        f'<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>'
+        f'</filter>' if GLOW else ""
+    )
+    if CARD:
+        backdrop = (f'  <rect x="1" y="1" width="{width-2}" height="{height-2}" '
+                    f'rx="{CARD_RADIUS}" fill="{BG}" stroke="{CARD_BORDER}" '
+                    f'stroke-width="1.5"/>')
+    else:
+        backdrop = f'  <rect width="{width}" height="{height}" fill="{BG}"/>'
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" role="img" aria-label="ASCII portrait">',
-        f'  <rect width="{width}" height="{height}" fill="{BG}"/>',
+        backdrop,
         "  <defs>",
+        glow_def,
     ]
+
+    # center the figure horizontally on its actual content bounds
+    min_dx, max_dx = wdots, -1
+    grids = []
+    for line in lines:
+        g = [[False] * wdots for _ in range(4)]
+        for c, ch in enumerate(line):
+            o = ord(ch)
+            if not (0x2800 <= o <= 0x28FF):
+                continue
+            bits = o - 0x2800
+            for bit, (dc, dr) in _BRAILLE_DOTS.items():
+                if bits & bit:
+                    x = 2 * c + dc
+                    g[dr][x] = True
+                    min_dx = min(min_dx, x)
+                    max_dx = max(max_dx, x)
+        grids.append(g)
+    if max_dx < 0:
+        min_dx, max_dx = 0, wdots - 1
+    content_w = max_dx - min_dx + 1
+    x_off = PAD + ((wdots - content_w) * d) // 2 - min_dx * d
 
     # per-text-line reveal windows (typing cascade)
     for i in range(len(lines)):
@@ -150,28 +189,21 @@ def build_braille_svg(lines) -> str:
         out.append("    </clipPath>")
     out.append("  </defs>")
 
-    # emit each line's set dots as run-length-merged rects, clipped by its window
-    for i, line in enumerate(lines):
-        # 4 dot-rows x wdots grid for this text line
-        grid = [[False] * wdots for _ in range(4)]
-        for c, ch in enumerate(line):
-            o = ord(ch)
-            if not (0x2800 <= o <= 0x28FF):
-                continue
-            bits = o - 0x2800
-            for bit, (dc, dr) in _BRAILLE_DOTS.items():
-                if bits & bit:
-                    grid[dr][2 * c + dc] = True
+    # emit each line's set dots as run-length-merged rects, clipped + glowing
+    glow_attr = ' filter="url(#glow)"' if GLOW else ""
+    out.append(f'  <g fill="{FG}"{glow_attr}>')
+    for i, grid in enumerate(grids):
         rects = []
         for dr in range(4):
             y = PAD + (i * 4 + dr) * d
             for start, length in _runs(grid[dr]):
                 rects.append(
-                    f'<rect x="{PAD + start * d}" y="{y}" '
+                    f'<rect x="{x_off + start * d}" y="{y}" '
                     f'width="{length * d}" height="{d}"/>'
                 )
         if rects:
-            out.append(f'  <g fill="{FG}" clip-path="url(#clip{i})">{"".join(rects)}</g>')
+            out.append(f'    <g clip-path="url(#clip{i})">{"".join(rects)}</g>')
+    out.append("  </g>")
 
     # resting blinking cursor
     total = (len(lines) * PER_ROW) + ROW_DUR

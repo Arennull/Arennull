@@ -20,13 +20,16 @@ from datetime import date
 CELL       = 12
 GAP        = 3
 RADIUS     = 2
-# Less -> More, one grayscale hue (index = data-level 0..4)
-SHADES     = ["#17171b", "#38383f", "#5f5f68", "#9b9ba4", "#ececef"]
+ACCENT     = "#7ee7c7"    # single accent (matches header); used for the busiest cells
+# Less -> More (index = data-level 0..4). Top shade = accent so peak days glow.
+SHADES     = ["#17171b", "#38383f", "#5f5f68", "#9b9ba4", ACCENT]
 FG         = "#e8e8ea"
 MUTED      = "#8a8a92"
+LINE       = "#26262c"    # card border (matches header / info card)
 BG         = "#0b0b0e"
+TITLE      = "// CONTRIBUTIONS"
 FONT       = "ui-monospace,'Cascadia Mono','Fira Code',Consolas,monospace"
-PAD        = 18
+PAD        = 22
 WAVE_DELAY = 0.014        # seconds per diagonal step
 CELL_DUR   = 0.35         # seconds a single cell takes to pop in
 FONT_SIZE  = 13
@@ -62,8 +65,10 @@ def build(data) -> str:
     grid_w = weeks * (CELL + GAP) - GAP
     grid_h = 7 * (CELL + GAP) - GAP
     width = grid_w + 2 * PAD
+    title_h = 34
     footer_h = 40
-    height = grid_h + 2 * PAD + footer_h
+    height = grid_h + 2 * PAD + title_h + footer_h
+    grid_top = PAD + title_h
 
     cur = data.get("current_streak", {}).get("length", 0)
     lon = data.get("longest_streak", {}).get("length", 0)
@@ -89,8 +94,14 @@ def build(data) -> str:
         )
     out += [
         "  </style>",
-        f'  <rect width="{width}" height="{height}" fill="{BG}"/>',
-        f'  <g transform="translate({PAD},{PAD})">',
+        # card
+        f'  <rect x="1" y="1" width="{width-2}" height="{height-2}" rx="14" '
+        f'fill="{BG}" stroke="{LINE}" stroke-width="1.5"/>',
+        # title with accent tick
+        f'  <rect x="{PAD}" y="{PAD-2}" width="4" height="15" rx="2" fill="{ACCENT}"/>',
+        f'  <text x="{PAD+12}" y="{PAD+11}" fill="{MUTED}" letter-spacing="1.5">'
+        f'{esc(TITLE)}</text>',
+        f'  <g transform="translate({PAD},{grid_top})">',
     ]
 
     for (col, row, level) in cells:
@@ -105,7 +116,7 @@ def build(data) -> str:
     out.append("  </g>")
 
     # footer: streak stats (left) + Less->More legend (right)
-    fy = PAD + grid_h + 26
+    fy = grid_top + grid_h + 26
     stats = f"current {cur}d · longest {lon}d · total {tot}"
     out.append(f'  <text x="{PAD}" y="{fy}" fill="{FG}">{esc(stats)}</text>')
 

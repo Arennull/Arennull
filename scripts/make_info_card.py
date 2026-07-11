@@ -31,6 +31,7 @@ ROWS = [
 FG         = "#e8e8ea"                  # ink
 MUTED      = "#8a8a92"                  # labels / secondary
 LINE       = "#26262c"                  # borders / dividers
+ACCENT     = "#7ee7c7"                  # single accent (matches header/heatmap)
 BG         = "#0b0b0e"
 FONT       = "ui-monospace,'Cascadia Mono','Fira Code',Consolas,monospace"
 TITLE_SIZE = 15
@@ -69,9 +70,9 @@ def build() -> str:
         "  </style>",
         f'  <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="12" '
         f'fill="{BG}" stroke="{LINE}" stroke-width="1.5"/>',
-        # window dots (monochrome)
-        f'  <circle cx="{PAD}" cy="{dot_y+6}" r="4" fill="{MUTED}"/>',
-        f'  <circle cx="{PAD+16}" cy="{dot_y+6}" r="4" fill="{LINE}"/>',
+        # window dots (accent + monochrome, matches header/heatmap)
+        f'  <circle cx="{PAD}" cy="{dot_y+6}" r="4" fill="{ACCENT}"/>',
+        f'  <circle cx="{PAD+16}" cy="{dot_y+6}" r="4" fill="{MUTED}"/>',
         f'  <circle cx="{PAD+32}" cy="{dot_y+6}" r="4" fill="{LINE}"/>',
         # title + host prompt
         f'  <text x="{W-PAD}" y="{header_y}" text-anchor="end" class="lbl" '
