@@ -376,9 +376,10 @@
     <rect class="c" x="780" y="15" width="12" height="12" rx="2" fill="#9b9ba4" style="animation-delay:0.742s"/>
     <rect class="c" x="780" y="30" width="12" height="12" rx="2" fill="#38383f" style="animation-delay:0.756s"/>
     <rect class="c" x="780" y="45" width="12" height="12" rx="2" fill="#5f5f68" style="animation-delay:0.770s"/>
-    <rect class="c" x="780" y="60" width="12" height="12" rx="2" fill="#38383f" style="animation-delay:0.784s"/>
+    <rect class="c" x="780" y="60" width="12" height="12" rx="2" fill="#5f5f68" style="animation-delay:0.784s"/>
+    <rect class="c" x="780" y="75" width="12" height="12" rx="2" fill="#38383f" style="animation-delay:0.798s"/>
   </g>
-  <text x="22" y="184" fill="#e8e8ea">current 36d · longest 36d · total 2686</text>
+  <text x="22" y="184" fill="#e8e8ea">current 37d · longest 37d · total 2712</text>
   <text x="666" y="184" fill="#8a8a92" text-anchor="end">Less</text>
   <rect x="672" y="176" width="10" height="10" rx="2" fill="#17171b"/>
   <rect x="686" y="176" width="10" height="10" rx="2" fill="#38383f"/>
