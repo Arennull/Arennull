@@ -1,17 +1,17 @@
 {
  "user": "Arennull",
- "generated_at": "2026-08-20T04:55:30+00:00",
- "total": 2869,
+ "generated_at": "2026-08-21T04:56:26+00:00",
+ "total": 2885,
  "max_day": 84,
  "current_streak": {
-  "length": 43,
+  "length": 44,
   "start": "2026-07-09",
-  "end": "2026-08-20"
+  "end": "2026-08-21"
  },
  "longest_streak": {
-  "length": 43,
+  "length": 44,
   "start": "2026-07-09",
-  "end": "2026-08-20"
+  "end": "2026-08-21"
  },
  "days": [
   {
@@ -1856,7 +1856,12 @@
   },
   {
    "date": "2026-08-20",
-   "count": 6,
+   "count": 20,
+   "level": 2
+  },
+  {
+   "date": "2026-08-21",
+   "count": 2,
    "level": 1
   }
  ]
