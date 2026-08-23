@@ -1,54 +1,19 @@
 {
  "user": "Arennull",
- "generated_at": "2026-08-22T04:51:58+00:00",
- "total": 2895,
+ "generated_at": "2026-08-23T04:53:39+00:00",
+ "total": 2903,
  "max_day": 84,
  "current_streak": {
-  "length": 45,
+  "length": 46,
   "start": "2026-07-09",
-  "end": "2026-08-22"
+  "end": "2026-08-23"
  },
  "longest_streak": {
-  "length": 45,
+  "length": 46,
   "start": "2026-07-09",
-  "end": "2026-08-22"
+  "end": "2026-08-23"
  },
  "days": [
-  {
-   "date": "2025-08-17",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-18",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-19",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-20",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-21",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-22",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-23",
-   "count": 0,
-   "level": 0
-  },
   {
    "date": "2025-08-24",
    "count": 0,
@@ -1866,7 +1831,12 @@
   },
   {
    "date": "2026-08-22",
-   "count": 2,
+   "count": 6,
+   "level": 1
+  },
+  {
+   "date": "2026-08-23",
+   "count": 4,
    "level": 1
   }
  ]
