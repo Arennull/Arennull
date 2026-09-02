@@ -375,8 +375,9 @@
     <rect class="c" x="780" y="0" width="12" height="12" rx="2" fill="#5f5f68" style="animation-delay:0.728s"/>
     <rect class="c" x="780" y="15" width="12" height="12" rx="2" fill="#7ee7c7" style="animation-delay:0.742s"/>
     <rect class="c" x="780" y="30" width="12" height="12" rx="2" fill="#17171b" style="animation-delay:0.756s"/>
+    <rect class="c" x="780" y="45" width="12" height="12" rx="2" fill="#17171b" style="animation-delay:0.770s"/>
   </g>
-  <text x="22" y="184" fill="#e8e8ea">current 54d · longest 54d · total 3356</text>
+  <text x="22" y="184" fill="#e8e8ea">current 0d · longest 54d · total 3356</text>
   <text x="666" y="184" fill="#8a8a92" text-anchor="end">Less</text>
   <rect x="672" y="176" width="10" height="10" rx="2" fill="#17171b"/>
   <rect x="686" y="176" width="10" height="10" rx="2" fill="#38383f"/>

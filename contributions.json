@@ -1,12 +1,12 @@
 {
  "user": "Arennull",
- "generated_at": "2026-09-01T09:25:59+00:00",
+ "generated_at": "2026-09-02T08:48:27+00:00",
  "total": 3356,
  "max_day": 106,
  "current_streak": {
-  "length": 54,
-  "start": "2026-07-09",
-  "end": "2026-08-31"
+  "length": 0,
+  "start": null,
+  "end": null
  },
  "longest_streak": {
   "length": 54,
@@ -1846,6 +1846,11 @@
   },
   {
    "date": "2026-09-01",
+   "count": 0,
+   "level": 0
+  },
+  {
+   "date": "2026-09-02",
    "count": 0,
    "level": 0
   }
